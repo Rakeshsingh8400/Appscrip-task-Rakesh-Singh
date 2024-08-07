@@ -1,0 +1,58 @@
+.filterdiv {
+    display: flex;
+    max-width: 235px;
+    flex-direction: column;
+    position: absolute;
+    color: var(--Text-Text, #252020);
+    text-transform: uppercase;
+    font: 400 18px/40px Simplon Norm, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .filterdiv-2 {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 7px 1px rgba(163, 170, 175, 0.2);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 27px 35px;
+  }
+  .filterdiv-3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    white-space: nowrap;
+    justify-content: start;
+  }
+  .filter-img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 26px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .recommended {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .newest-first {
+    text-align: right;
+    align-self: end;
+    margin-top: 18px;
+  }
+  .popular {
+    text-align: right;
+    align-self: end;
+    margin-top: 18px;
+  }
+  .price-high-to-low {
+    text-align: right;
+    align-self: start;
+    margin-top: 16px;
+  }
+  .price-low-to-high {
+    text-align: right;
+    align-self: start;
+    margin-top: 18px;
+  }

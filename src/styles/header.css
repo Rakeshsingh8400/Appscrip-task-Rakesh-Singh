@@ -1,0 +1,230 @@
+.divheader {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+  }
+  .grey-strip {
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 40px 100px;
+    color: var(--Primary-Primary, #eb4c6b);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px 274px;
+    font: 400 12px Simplon Norm, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .grey-strip {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .divheader-2 {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+    margin: auto 0;
+  }
+  .imgheader {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .lorem-ipsum-dolor {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .divheader-3 {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+    margin: auto 0;
+  }
+  .divheader-4 {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+    margin: auto 0;
+  }
+  .header {
+    background-color: var(--Schemes-On-Error, #fff);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    padding: 30px 80px;
+  }
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .divheader-5 {
+    display: flex;
+    width: 100%;
+    max-width: 1248px;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .divheader-5 {
+      max-width: 100%;
+      white-space: initial;
+    }
+  }
+  .imgheader-2 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 36px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .logo {
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    font: 800 36px Inter, sans-serif;
+  }
+  .icons {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: var(--Text-Text, #252020);
+    justify-content: end;
+    margin: auto 0;
+    font: 700 16px Simplon Norm, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .icons {
+      white-space: initial;
+    }
+  }
+  .imgheader-3 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .imgheader-4 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .imgheader-5 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .imgheader-6 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .language {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: start;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .language {
+      white-space: initial;
+    }
+  }
+  .eng {
+   
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: auto;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-top: 60px;
+    align-items: start;
+    gap: 40px 64px;
+    color: var(--Text-Text, #252020);
+    justify-content: start;
+    flex-wrap: wrap;
+    font: 700 20px Simplon Norm, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .tabs {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .shop {
+    white-space: nowrap;
+    width: 52px;
+  }
+  @media (max-width: 991px) {
+    .shop {
+      white-space: initial;
+    }
+  }
+  .skills {
+    white-space: nowrap;
+    width: 65px;
+  }
+  @media (max-width: 991px) {
+    .skills {
+      white-space: initial;
+    }
+  }
+  .tab-3 {
+    white-space: nowrap;
+    width: 79px;
+  }
+  @media (max-width: 991px) {
+    .tab-3 {
+      white-space: initial;
+    }
+  }
+  .tab-4 {
+    white-space: nowrap;
+    width: 65px;
+  }
+  @media (max-width: 991px) {
+    .tab-4 {
+      white-space: initial;
+    }
+  }
+  .tab-5 {
+    white-space: nowrap;
+    width: 119px;
+  }

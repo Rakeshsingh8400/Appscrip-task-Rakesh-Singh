@@ -1,0 +1,118 @@
+.divfilter {
+    display: flex;
+    margin-left: 150px;
+    flex-direction: column;
+    line-height: 40px;
+    border: 0.5px;
+    box-shadow:inset;
+  }
+  .divfilter-2 {
+    min-height: 0px;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .divfilter-2 {
+      max-width: 100%;
+    }
+  }
+  .divfilter-3 {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 100%;
+    padding-top: 24px;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .divfilter-3 {
+      max-width: 100%;
+    }
+  }
+  .divfilter-4 {
+    display: flex;
+    width: 100%;
+    max-width: 1212px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .divfilter-4 {
+      max-width: 100%;
+    }
+  }
+  .divfilter-5 {
+    display: flex;
+    gap: 40px 80px;
+  }
+  .-items {
+    color: var(--Text-Text, #252020);
+    text-transform: uppercase;
+    font: 700 18px Simplon Norm, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .divfilter-6 {
+    align-items: center;
+    background-color: var(--Schemes-On-Error, #fff);
+    display: flex;
+    gap: 8px;
+    color: var(--Text-Secondary-Text, #888792);
+    text-align: right;
+    justify-content: start;
+    font: 400 16px Adobe Caslon Pro, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .hide-filter {
+    text-decoration-line: underline;
+    align-self: stretch;
+    margin: auto 0;
+    cursor: pointer;
+  }
+  .filterRecom{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -80px;
+  }
+
+  .filterCust{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -150px;
+  }
+  .divfilter-7 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--Text-Text, #252020);
+    white-space: nowrap;
+    text-transform: uppercase;
+    justify-content: start;
+    font: 700 18px Simplon Norm, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .divfilter-7 {
+      white-space: initial;
+    }
+  }
+  .recommended {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .divfilter-8 {
+    min-height: 1px;
+    margin-top: 23px;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .divfilter-8 {
+      max-width: 100%;
+    }
+  }

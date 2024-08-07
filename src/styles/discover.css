@@ -1,0 +1,39 @@
+.div{
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    margin-left: 400px;
+    max-width: 672px;
+    flex-direction: column;
+    font-family: Simplon Norm, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+  .discover-our-products {
+    color: var(--Misc-Text, #252020);
+    font-size: 60px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  @media (max-width: 991px) {
+    .discover-our-products {
+      max-width: 100%;
+      white-space: nowrap;
+      margin-right: 2px;
+      font-size: 40px;
+    }
+  }
+  .lorem-ipsum-dolor-sit-amet-consectetur-amet-est-posuere-rhoncus-scelerisque-dolor-integer-scelerisque-nibh-amet-mi-ut-elementum-dolor {
+    color: var(--Text-Text, #252020);
+    font-size: 22px;
+    margin-left: 80px;
+    line-height: 40px;
+    margin-top: 28px;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .lorem-ipsum-dolor-sit-amet-consectetur-amet-est-posuere-rhoncus-scelerisque-dolor-integer-scelerisque-nibh-amet-mi-ut-elementum-dolor {
+      max-width: 100%;
+    }
+  }
